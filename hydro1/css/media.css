@@ -319,3 +319,9 @@
      }
      
 }
+
+@media (max-width: 383px) {
+    .card_input-search {
+        margin-left: 0;
+    }
+}
