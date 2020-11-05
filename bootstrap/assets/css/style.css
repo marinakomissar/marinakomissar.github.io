@@ -1,0 +1,128 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:#b8369c;
+}
+
+nav ul li a {
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: #b8369c;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#b8369c;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-style: 16px;
+    font-weight: 300;
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px;
+}
+
+.hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.hero .img {
+    max-width: 130%;
+}
+
+.hero .card {
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: none;
+    text-align: center;
+}
+
+.hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #b8369c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+section.contact {
+    margin-bottom: 0;
+}
+
+.number {
+    margin-bottom: 0;
+}
+
+.main {
+    margin-bottom: 50px;
+}
+
+.mobilebtn {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .btn {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .mobilebtn {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .mainbtn {
+        display: none;
+    }
+}
